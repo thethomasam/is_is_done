@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
 class TileStack extends Component {
+  componentDidMount() {}
   render() {
     return (
-      <div>
+      <div className="TaskAdder">
         <div class="row px-3 align-items-center todo-item rounded">
           <div class="col-auto m-1 p-0 d-flex align-items-center">
             <h2 class="m-0 p-0">
@@ -27,13 +28,8 @@ class TileStack extends Component {
               type="text"
               class="form-control form-control-lg border-0 edit-todo-input bg-transparent rounded px-3"
               readonly
-              value="Buy groceries for next week"
-              title="Buy groceries for next week"
-            />
-            <input
-              type="text"
-              class="form-control form-control-lg border-0 edit-todo-input rounded px-3 d-none"
-              value="Buy groceries for next week"
+              value={this.props.task}
+              title={this.props.task}
             />
           </div>
           <div class="col-auto m-1 p-0 px-3 d-none"></div>

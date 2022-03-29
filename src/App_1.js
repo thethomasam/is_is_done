@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import App_copy from "./App_copy";
+import App_copy from "./App";
 import TaskAdder from "./components/TaskAdder";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <App_copy />
       <div class="container m-5 p-2 rounded mx-auto bg-light shadow">
+        ß
         <div class="row m-1 p-4">
           <div class="col">
             <div class="p-1 h1 text-primary text-center mx-auto display-inline-block">
@@ -18,7 +19,6 @@ function App() {
         </div>
         <TaskAdder />
         <div class="p-2 mx-4 border-black-25 border-bottom"></div>
-
         <div class="row m-1 p-3 px-5 justify-content-end">
           <div class="col-auto d-flex align-items-center">
             <label class="text-secondary my-2 pr-2 view-opt-label">
@@ -55,7 +55,6 @@ function App() {
             ></i>
           </div>
         </div>
-
         <div class="row mx-1 px-5 pb-3 w-80">
           <div class="col mx-auto">
             <div class="row px-3 align-items-center todo-item rounded">
