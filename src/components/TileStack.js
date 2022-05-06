@@ -62,7 +62,7 @@ class TileStack extends Component {
                   data-original-title="Created date"
                 ></i>
                 <label class="date-label my-2 text-black-50">
-                  39-dwdwd
+              test the sample
                 </label>
               </div>
             </div>
